@@ -82,21 +82,27 @@ namespace AlgFun_Laborator_
 
         private void button4_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < sursa.Width; i++)
+            for (int i = 0; i < sursa2.Width; i++)
             {
-                for (int j = 0; j < sursa.Height; j++)
+                for (int j = 0; j < sursa2.Height; j++)
                 {
                     Color Ts = sursa.GetPixel(i, j);
+                    Color Ts2 = sursa2.GetPixel(i, j);
                     Color Td;
                     int r = Ts.R;
                     int g = Ts.G;
                     int b = Ts.B;
-                    Td = Color.FromArgb(r, g, b);
-                    nustiu(Ts,Td);
-                    destinatie.SetPixel(i, j, Td);
+                    int r2 = Ts2.R;
+                    int g2 = Ts2.G;
+                    int b2 = Ts2.B;
+                    int r12 = (r + r2) / 2;
+                    int g12 = (g + g2) / 2;
+                    int b12 = (b + b2) / 2;
+                    Td = Color.FromArgb(r12, g12, b12);
+                    destinatie2.SetPixel(i, j, Td);
                 }
             }
-            pictureBox1.Image = destinatie;
+            pictureBox3.Image = destinatie2;
         }
         private Color nustiu (Color ts,Color td)
         {
