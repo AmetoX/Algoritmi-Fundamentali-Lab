@@ -5,6 +5,10 @@ VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgFun(Laborator)", "AlgFun(Laborator).csproj", "{E832AD2F-CC0C-43C8-BA24-AEFDE9D0A05A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZonaMatrice_lab", "..\ZonaMatrice_lab\ZonaMatrice_lab.csproj", "{7E86DF36-22CB-4E6A-93AD-772649E2ECCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConturMatrice_lab", "..\ConturMatrice_lab\ConturMatrice_lab.csproj", "{414D0572-7571-4123-AFDD-06D7B155208B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{E832AD2F-CC0C-43C8-BA24-AEFDE9D0A05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E832AD2F-CC0C-43C8-BA24-AEFDE9D0A05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E832AD2F-CC0C-43C8-BA24-AEFDE9D0A05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E86DF36-22CB-4E6A-93AD-772649E2ECCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E86DF36-22CB-4E6A-93AD-772649E2ECCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E86DF36-22CB-4E6A-93AD-772649E2ECCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E86DF36-22CB-4E6A-93AD-772649E2ECCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{414D0572-7571-4123-AFDD-06D7B155208B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{414D0572-7571-4123-AFDD-06D7B155208B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{414D0572-7571-4123-AFDD-06D7B155208B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{414D0572-7571-4123-AFDD-06D7B155208B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
