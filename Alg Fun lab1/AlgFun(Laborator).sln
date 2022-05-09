@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZonaMatrice_lab", "..\ZonaM
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConturMatrice_lab", "..\ConturMatrice_lab\ConturMatrice_lab.csproj", "{414D0572-7571-4123-AFDD-06D7B155208B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrice_lab_02_05", "..\Matrice_lab_02_05\Matrice_lab_02_05.csproj", "{9FD6D156-3D45-4FCA-8D93-521DCDE86905}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrice_lab_02_05", "..\Matrice_lab_02_05\Matrice_lab_02_05.csproj", "{9FD6D156-3D45-4FCA-8D93-521DCDE86905}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFA_Triunghi_Arie_Minima", "..\WFA_Triunghi_Arie_Minima\WFA_Triunghi_Arie_Minima.csproj", "{68B83CF2-A476-461A-8398-08AD4FC17E28}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9FD6D156-3D45-4FCA-8D93-521DCDE86905}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD6D156-3D45-4FCA-8D93-521DCDE86905}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD6D156-3D45-4FCA-8D93-521DCDE86905}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68B83CF2-A476-461A-8398-08AD4FC17E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68B83CF2-A476-461A-8398-08AD4FC17E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68B83CF2-A476-461A-8398-08AD4FC17E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68B83CF2-A476-461A-8398-08AD4FC17E28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
