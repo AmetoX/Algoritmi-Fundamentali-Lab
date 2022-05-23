@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matrice_lab_02_05", "..\Mat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFA_Triunghi_Arie_Minima", "..\WFA_Triunghi_Arie_Minima\WFA_Triunghi_Arie_Minima.csproj", "{68B83CF2-A476-461A-8398-08AD4FC17E28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Structura_de_date_23_05", "..\Structura_de_date_23_05\Structura_de_date_23_05.csproj", "{59B49A14-4EFE-4515-8795-6D881DEB5E58}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{68B83CF2-A476-461A-8398-08AD4FC17E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68B83CF2-A476-461A-8398-08AD4FC17E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68B83CF2-A476-461A-8398-08AD4FC17E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B49A14-4EFE-4515-8795-6D881DEB5E58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B49A14-4EFE-4515-8795-6D881DEB5E58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B49A14-4EFE-4515-8795-6D881DEB5E58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B49A14-4EFE-4515-8795-6D881DEB5E58}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
