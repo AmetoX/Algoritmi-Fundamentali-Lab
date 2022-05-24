@@ -10,7 +10,9 @@ namespace Structura_de_date_23_05
     {
         int n;
         int _right;
+        int _left;
         int[] val;
+        int[] T;
         public DateL()
         {
             val = new int[0];
@@ -28,20 +30,20 @@ namespace Structura_de_date_23_05
         }
         public void Push2(int v) //add an element to stack
         {
-            //int[] T = new int[val.Length + 1];// 0 1
-            if (v < val[0]) PushBeg(v);
-            else if (v > val[_right]) PushEnd(v);
+            T = new int[val.Length + 1];
+            if (v < T[_left]) PushBeg(v);
+            else if (v > T[_right]) PushEnd(v);
             else
             {
                 for (int i = 0; i <= _right; i++)
                 {
-                    if (val[i] > v)
+                    if (T[i] > v)
                     {
                         InsertAt(i, v);
                     }
                 }
             }
-            //val = T;
+            val = T;
         }
         private void PushBeg(int element)
         {
@@ -49,19 +51,19 @@ namespace Structura_de_date_23_05
         }
         private void PushEnd(int element)
         {
-            n = val.Length;
-            val[_right] = element;
+            n = T.Length;
+            T[_right] = element;
             _right = _right++ % n;
         }
         private void InsertAt(int i, int element)
         {
-            int temp = val[i];
-            val[i] = element;
+            int temp = T[i];
+            T[i] = element;
             for (int k = i + 1; k < _right; k++)
             {
-                val[k] = val[k + 1];
+                T[k] = T[k + 1];
             }
-            val[_right] = temp;
+            T[_right] = temp;
             _right++;
         }
         public int Pop()
