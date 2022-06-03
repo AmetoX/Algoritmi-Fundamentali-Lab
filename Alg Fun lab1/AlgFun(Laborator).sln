@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFA_Triunghi_Arie_Minima", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structura_de_date_23_05", "..\Structura_de_date_23_05\Structura_de_date_23_05.csproj", "{59B49A14-4EFE-4515-8795-6D881DEB5E58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParcurgereLatime_BackTracking", "..\ParcurgereLatime_BackTracking\ParcurgereLatime_BackTracking.csproj", "{765A53F1-3A0A-4402-9853-94C80D6A2716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ParcurgereLatime_BackTracking", "..\ParcurgereLatime_BackTracking\ParcurgereLatime_BackTracking.csproj", "{765A53F1-3A0A-4402-9853-94C80D6A2716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgFun2(Laborator)", "..\AlgFun-Laborator\AlgFun2(Laborator).csproj", "{D05CDF2F-6C96-4C3F-949C-60248809A4F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{765A53F1-3A0A-4402-9853-94C80D6A2716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{765A53F1-3A0A-4402-9853-94C80D6A2716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{765A53F1-3A0A-4402-9853-94C80D6A2716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D05CDF2F-6C96-4C3F-949C-60248809A4F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05CDF2F-6C96-4C3F-949C-60248809A4F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05CDF2F-6C96-4C3F-949C-60248809A4F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05CDF2F-6C96-4C3F-949C-60248809A4F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
