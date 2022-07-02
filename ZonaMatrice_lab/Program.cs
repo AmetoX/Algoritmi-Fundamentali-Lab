@@ -3,23 +3,19 @@ int m = 11;//coloane
 int[,] matrice = new int[n,m];
 viewMatrix(matrice);
 Console.WriteLine();
-for (int i = 0; i < n; i++)
+//spirala
+for (int j = 0; j < n / 2; j++)
 {
-    for (int j = 0; j < m; j++)
-    {
-
-        if (i < j && i + j < n/2+1)
-            matrice[i, j] = 1;
-        if (i < j && i + j > n / 2 + 1)
-            matrice[i, j] = 1;
-        if (i < j/2 && i + j > n/2 - 1)
-            
-        if (i > j/2 && i + j > n/2 - 1)
-            
-        if (i > j && i + j < n/2 - 1)
-            matrice[i, j] = 4;
-    }
+    for (int i = j; i < n - 1 - j; i++)
+        matrice[j, i] = 1;
+    for (int i = j; i < n - 1 - j; i++)
+        matrice[i, n - 1 - j] = 1;
+    for (int i = n - 1 - j; i > j; i--)
+        matrice[n - 1 - j, i] = 1;
+    for(int i = n - 1 - j; i > 0; i--)
+        matrice[i,j]=1;
 }
+
 viewMatrix(matrice);
 
 static void viewMatrix(int[,] matrix)
